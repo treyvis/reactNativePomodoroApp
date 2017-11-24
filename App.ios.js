@@ -24,7 +24,7 @@ export default class App extends Component<{}> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native on iOS!
+          Welcome to React Native on the iOS view!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit App.js
