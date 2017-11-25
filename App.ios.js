@@ -21,6 +21,8 @@ const instructions = Platform.select({
 
 export default class App extends Component<{}> {
   render() {
+    console.log('hello');
+    debugger
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
