@@ -21,6 +21,10 @@ const instructions = Platform.select({
 
 export default class App extends Component<{}> {
   render() {
+    const names = ['Trey', 'Aubrey'];
+    const nameComponents = names.map( name => {
+      return(<Text>{name} is the best!</Text>);
+    });
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
@@ -32,6 +36,7 @@ export default class App extends Component<{}> {
         <Text style={styles.instructions}>
           {instructions}
         </Text>
+        {nameComponents}
       </View>
     );
   }
